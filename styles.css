@@ -153,3 +153,38 @@ hr {
   max-width: 850px;
   color: #444;
 }
+
+@media (max-width:414px) {
+  .profile-container{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+  }
+  .profile-info{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .new-post-btn{
+    justify-content: center;
+    top: auto;
+    padding-inline: 100px;
+  }
+  h2{
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 0;
+    
+  }
+  .p{
+    text-align: center;
+    font-size: larger;
+    margin: 0;
+    padding-top: 0;
+  }
+  .edit-link{
+    font-weight: 100;
+    padding-left: 60px;
+  }
+
+}
