@@ -15,6 +15,18 @@
     </div>
 
     <main class="container">
+        <!-- New Post Modal -->
+    <div id="newPostModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Create New Post</h2>
+            <form id="newPostForm">
+                <input type="file" id="postImage" accept="image/*" required>
+                <input type="text" id="postTitle" placeholder="Title" required>
+                <button type="submit">Create Post</button>
+            </form>
+        </div>
+    </div>
         <div class="profile-container">
             <div class="profile-card">
                 <div class="profile-img">
