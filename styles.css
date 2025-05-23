@@ -176,9 +176,10 @@ body {
 .like-btn {
   width: 23px;
   height: 20px;
-  opacity: 40%;
-  align-self: center;
+  align-self: center; /* removed the opacity feature to make it stay red after it has been clicked */
   border: none;
+  background:none;
+  font-size: 20px;
 }
 
 .like-btn:hover {
@@ -245,3 +246,10 @@ line-height: 100%;
     font-size: 16px;
   }
 }
+
+
+
+
+
+
+
