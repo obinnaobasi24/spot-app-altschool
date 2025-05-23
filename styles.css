@@ -87,7 +87,7 @@ body {
 
 .multiline-ellipsis {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-lamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;

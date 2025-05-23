@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    align-items: left;
+    background-color: black;
+    color: bisque;
+    border-radius: 4px;
+}
