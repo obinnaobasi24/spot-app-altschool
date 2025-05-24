@@ -1,3 +1,4 @@
+
 // DOM Elements
 const likeButtons = document.querySelectorAll('.like-btn');
 const newPostBtn = document.getElementById('newPostBtn');
